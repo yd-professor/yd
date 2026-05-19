@@ -8,7 +8,8 @@ import streamlit as st
 import torch
 from PIL import Image
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, BlipForConditionalGeneration, BlipProcessor
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+#from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
